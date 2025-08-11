@@ -41,9 +41,27 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.5);
 
 .logo{
   width: 60px;
-  margin-left: 10px;
 
 }
+
+.nav-search{
+border: 1px solid;
+margin: 15px;
+padding: 8px 12px;
+border-radius: 25px;
+}
+
+.nav-search input {
+  width: 400px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+.nav-search img{
+  width: 15px;
+}
+
 
 .navbar-upd{
   font-size: 20px;
@@ -77,8 +95,8 @@ box-shadow: 0 2px 4px rgba(0,0,0,0.5);
   padding: 10px 20px;
   font-size: 14px;
   border-radius: 6px;
-  font-weight: 400;
-  font-style: italic;
+  /* font-weight: 400; */
+  /* font-style: italic; */
   cursor: pointer;
   transition: all 0.3s ease;
 }
