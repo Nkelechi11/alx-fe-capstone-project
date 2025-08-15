@@ -6,6 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 
@@ -103,4 +104,68 @@ border-radius: 25px;
 .navbar-signup:hover{
   color: white;
   font-size: medium;
+}
+
+
+/* Sidebar */
+
+.sidebar{
+
+  position: fixed;
+  left: 0;
+  top: 60px;
+  height: calc(100vh - 60px);
+  background-color: crimson;
+  color: white;
+  padding: 2rem 5rem;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+  z-index: 999;
+  overflow-y: autofill;
+  margin: 0 20px ;
+  
+
+}
+
+
+.shortcut-links {
+width: 20px;
+margin-right: 20px;
+
+
+}
+
+.side-links{
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  /* flex-wrap: wrap; */
+  width: fit-content;
+  cursor: pointer;
+  padding: 48px 0;
+  gap: 10px; 
+  font-size: larger;
+  
+
+}
+
+
+.side-links:hover{
+  color: black;
+}
+
+.homepage{
+  align-items: center;
+  text-align: center;
+}
+
+.searchpage{
+  text-align: center;
+}
+
+.nowplaying-page{
+  text-align: center;
+}
+
+.playlist-page{
+  text-align: center;
 }
