@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import Sidebar from '../components/Sidebar'
+import SearchPageComp from '../components/SearchPageComp'
 
 const Search = () => {
   return (
     <div>
-
-      <h1 className='searchpage'>Search page</h1>
+      
+      <div className='container'>
+        <SearchPageComp />
+      </div>
 
     </div>
   )

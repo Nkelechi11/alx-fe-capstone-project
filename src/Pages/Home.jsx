@@ -1,15 +1,14 @@
 import React from 'react'
-import Sidebar from '../components/Sidebar'
-import Navbar from '../components/Navbar'
+import HomePageComp from '../components/HomePageComp'
 
 const Home = () => {
   return (
-    <>
-      <h1 className='homepage'>
-        This is the HomePage
-      </h1>
-     
-    </>
+    <div> 
+      
+      <div className='home-container'>
+        <HomePageComp />
+     </div>
+    </div>
   )
 }
 

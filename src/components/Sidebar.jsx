@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { AiOutlinePlayCircle } from 'react-icons/ai';
@@ -9,16 +10,16 @@ const Sidebar = () => {
     <div className='sidebar'>
         <div className='shortcut-links'>
             <div className='side-links'>
-                <AiOutlineHome /><p>Home</p>
+               <NavLink to='/'><AiOutlineHome /><p>Home</p></NavLink> 
             </div>  
             <div className='side-links'>  
-               <AiOutlineSearch /><p>Search</p>
+               <NavLink to='/search'> <AiOutlineSearch /><p>Search</p></NavLink> 
             </div>
             <div className='side-links'>
-                <AiOutlinePlayCircle /><p>Now Playing</p>
+              <NavLink to='/playing'> <AiOutlinePlayCircle /><p>Now Playing</p></NavLink> 
             </div>
             <div className='side-links'>
-                <AiOutlineUnorderedList /><p>Playlist</p>
+              <NavLink to='/playlist'> <AiOutlineUnorderedList /><p>Playlist</p></NavLink> 
             </div>
         </div>
     </div>

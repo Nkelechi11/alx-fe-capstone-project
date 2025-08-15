@@ -22,8 +22,8 @@ const Navbar = () => {
         <div className='navbar-notify'>
           <FaBell />
         </div>
-        <div className='navbar-signup'>
-            <button>Sign In</button>
+        <div>
+            <button className='navbar-signup'>Sign In</button>
         </div>
         </div>
 
