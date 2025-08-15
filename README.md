@@ -1,12 +1,16 @@
-# React + Vite
+DigiPlay Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive music streaming application that brings your favorite tracks to life.
+DigiPlay is a feature-rich music player built with React that allows users to discover, search, and stream music tracks seamlessly. Powered by the Deezer API, it offers instant access to millions of songs with a sleek, intuitive interface designed for music lovers.
 
-Currently, two official plugins are available:
+Smart Search Capabilities
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+DigiPlay provides intelligent search functionality that allows users to find music tracks by song title, artist name, or album. The search engine delivers real-time results with comprehensive track information, ensuring users can quickly discover the music they're looking for. The application intelligently handles empty or invalid search queries, providing helpful feedback to guide users toward successful searches.
 
-## Expanding the ESLint configuration
+Immersive Playback Experience
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application offers a complete music streaming experience through 30-second preview clips of any track in the Deezer catalog. Users enjoy full-featured media controls including play, pause, skip, and volume adjustment capabilities. The player displays live information about the currently playing track, complete with album artwork and track details. The responsive audio player works seamlessly across all devices, ensuring a consistent listening experience whether on desktop, tablet, or mobile.
+
+Getting Started
+
+To experience DigiPlay, simply search for your favorite songs, artists, or albums using the search bar. Click on any track from the results to begin playback, and use the media controls to customize your listening experience. The application requires no setup or authentication, providing immediate access to music discovery and streaming.
